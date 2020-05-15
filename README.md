@@ -1,2 +1,4 @@
 # AverageCurve
-average speed curve motion
+
+### 均速曲线运动
+
