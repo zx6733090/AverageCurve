@@ -26,7 +26,25 @@
   >  let rom = new CatmullRom(pts,1)  
   >  rom.lerp(t).y
   
- |  参数 | 说明 |
-|  ------ | ------ |
-|  pts | 曲线经过的点数组 |
-|  usage | 0：均速路径曲线<br> 1：均速缓动曲线 |
+
+<table>
+    <tr>
+        <td>接口</td>
+        <td>参数</td>
+        <td>说明</td>
+    </tr>
+    <tr>
+        <td rowspan="2">catmullRom=new CatmullRom(pts,usage)</td>
+    <td>pts</td>
+        <td>曲线经过的点数组</td>
+  </tr>
+    <tr>
+    <td>usage</td>
+        <td>0：均速路径曲线<br> 1：均速缓动曲线</td>
+    </tr>
+  <tr>
+        <td>catmullRom.lerp(t)</td>
+        <td>t</td>
+        <td>插件比例，范围0-1，0：起点， 1：终点</td>
+   </tr>
+</table>
